@@ -1,0 +1,123 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.login-page-main-image-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login-side-image {
+  width: 216px;
+  height: 216px;
+  border-radius: 50%;
+  top: 32px;
+  left: 72px;
+  margin-bottom: 15px;
+}
+.login-logo-image {
+  width: 104px;
+  height: 28px;
+  top: 264px;
+  left: 128px;
+  margin-bottom: 20px;
+}
+.input-container {
+  width: 312px;
+  height: 90px;
+  top: 324px;
+  left: 24px;
+  padding: 3px, 0px, 0px, 0px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.label {
+  width: 94px;
+  height: 19px;
+  top: 3px;
+  color: #5a7184;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.input {
+  width: 312px;
+  height: 56px;
+  margin-top: 12px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-left: 12px;
+  outline: none;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.login-button {
+  width: 312px;
+  height: 40px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border-width: 0;
+  border-radius: 8px;
+}
+.error-para {
+  color: #ef4444;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 18px;
+  top: 528px;
+  left: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-page-main-image-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .login-side-image {
+    width: 50vw;
+    height: 100vh;
+    background-size: cover;
+    border-radius: 0%;
+    border: 0%;
+    padding-top: 0%;
+  }
+  .login-box-container {
+    width: 50vw;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .login-logo-image {
+    width: 130px;
+    height: 30px;
+  }
+}

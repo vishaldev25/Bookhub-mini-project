@@ -1,0 +1,122 @@
+.navbar {
+  background-color: #ffffff;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+}
+.navbar-mobile-container {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header-logo {
+  width: 92px;
+  height: 24px;
+}
+.hamburger-button {
+  background-color: transparent;
+  border: 0;
+}
+.navbar-desktop-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
+}
+.navbar-harmburger-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-unordered-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-list-items-container {
+  margin-right: 30px;
+}
+.nav-links {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #64748b;
+}
+.logout-button {
+  width: Hug (73px);
+  height: Hug (32px);
+  padding: 8px;
+  border-radius: 4px;
+  gap: 8px;
+  background-color: #0284c7;
+  border-width: 0;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 8px;
+}
+.blue-class {
+  color: #0284c7;
+}
+.close-button {
+  background-color: transparent;
+  border: 0;
+}
+.show-only {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .show-only {
+    display: none;
+  }
+  .navbar {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-mobile-container {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar-desktop-container {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-logo {
+    width: 133px;
+    height: 41px;
+    margin-left: 150px;
+  }
+  .hamburger-button {
+    display: none;
+  }
+  .navbar-harmburger-links-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar-desktop-container {
+    display: none;
+  }
+  .navbar-desktop-links-container {
+    display: none;
+  }
+}

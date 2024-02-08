@@ -1,0 +1,37 @@
+.button-tab {
+  border-width: 0;
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 4px;
+  border-radius: 9px;
+  background-color: transparent;
+}
+
+.active-tab {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+.button-tabs-container {
+  list-style-type: none;
+  margin-right: 15px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-tab {
+    border: 0;
+    color: #475569;
+    font-size: 18px;
+  }
+  .active-tab {
+    color: #0284c7;
+    background-color: transparent;
+    font-weight: bold;
+  }
+}

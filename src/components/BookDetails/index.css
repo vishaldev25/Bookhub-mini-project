@@ -1,0 +1,136 @@
+.books-home-container {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 1px solid #f8fafc;
+}
+
+.books-placement-container {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.book-details-container {
+  padding-top: 28px;
+  justify-content: center;
+}
+.book-details-image-desc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 19px;
+}
+.book-details-image {
+  width: 235px;
+  height: 274px;
+  border-radius: 12px;
+}
+.book-details-description {
+  width: 205px;
+  height: 140px;
+}
+
+.book-details-heading {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.book-details-author {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.special {
+  color: #0284c7;
+}
+.book-details-about-auth-heading {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+.book-details-desc {
+  margin-top: 0;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}
+.book-details-desc-container {
+  text-align: left;
+}
+.loader-container-book-details {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.book-details-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .books-home-container {
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+  }
+  .books-placement-container {
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 30px;
+  }
+  .book-details-image-desc-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-details-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+    width: 250px;
+  }
+
+  .book-details-heading {
+    text-align: left;
+    font-size: 32px;
+  }
+
+  .book-details-author {
+    font-size: 20px;
+    text-align: left;
+  }
+  .book-details-about-auth-heading {
+    font-size: 24px;
+  }
+  .book-details-desc {
+    font-size: 18px;
+  }
+}

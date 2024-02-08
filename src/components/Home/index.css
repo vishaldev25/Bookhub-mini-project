@@ -1,0 +1,234 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.home-content-mobile {
+  padding: 5px;
+}
+.home-heading {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1e293b;
+  top: 80px;
+  left: 24px;
+}
+.loader-container {
+  text-align: center;
+}
+.home-para {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  top: 120px;
+  left: 24px;
+}
+
+.find-books-button1 {
+  background-color: #0284c7;
+  width: Hug (104px);
+  height: Hug (36px);
+  padding: 8px;
+  border-radius: 4px;
+  border-width: 0;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.find-books-button2 {
+  background-color: #0284c7;
+  width: Hug (104px);
+  height: Hug (36px);
+  padding: 8px;
+  border-radius: 4px;
+  border-width: 0;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.top-books-showcase-container {
+  margin-top: 12px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+}
+.top-rated-heading {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1e293b;
+}
+
+.failure-container {
+  text-align: center;
+}
+
+.failure-image {
+  width: 244px;
+  height: 120px;
+  margin-top: 8px;
+}
+.failure-para {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.home-content-desktop {
+  padding: 20px;
+}
+
+.top-contanier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slick-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 100px;
+  width: 120px;
+}
+
+.slick-item {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para-container {
+  text-align: left;
+}
+
+.slick-para {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #334155;
+}
+
+.slick-author {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #475569;
+  margin-top: 0px;
+}
+
+.slider-links {
+  text-decoration: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+@media screen and (min-width: 768px) {
+  .logo-image {
+    width: 300px;
+    height: 224px;
+    border-radius: 4px;
+  }
+  .slick-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    margin: -10px;
+  }
+  .slick-para {
+    font-size: 18px;
+    text-align: center;
+  }
+  .slick-author {
+    margin-top: 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .para-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .slider-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+  }
+  .home-para {
+    font-size: 20px;
+  }
+  .top-books-showcase-container {
+    padding: 15px;
+  }
+  .failure-image {
+    width: 469px;
+    height: 239px;
+  }
+  .failure-para {
+    font-size: 24px;
+  }
+  .find-books-button1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .find-books-button2 {
+    display: none;
+  }
+}
